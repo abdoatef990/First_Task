@@ -1,9 +1,102 @@
 <!DOCTYPE html>
+
 <html>
     <head>
-        <title>Html Page</title>
+        <meta charset="utf_8">
+        <meta name="description" content="first task of html">
+        <title>TASK</title>
+        <style>
+            body{margin:0;padding:0;font-family: Arial, Helvetica, sans-serif;font-style:bold;}
+            .navigation
+            {
+              background-color:rgb(181, 193, 204);
+              color:black;
+              font-size: 15px;
+              text-align: center;
+              padding: 3px 0;
+            }
+            ul{list-style: none;padding: 0; margin: 0;}
+            ul li {display:inline-block;padding: 7px;}
+
+            .content
+            {
+                font-family:'Bradley Hand ITC', Times, serif ;
+               text-align:center;
+               padding: 70px 0;
+            }
+            .Messi
+            {
+                text-align: center;
+            }
+            .contact
+            {
+                text-align: center;
+                background-color: rgb(126, 176, 216);
+            }
+        </style>
+
     </head>
+
+
     <body>
-        
+
+<div class="navigation">
+<ul>
+    <li><b>Home</b></li>
+    <li><b>Categories</b></li>
+    <li><b>contacts</b></li>
+</ul>
+</div>
+
+<div class="content">
+   <h1>image full width</h1>
+<img src="cairokee.jpg" width="100%" ><br><br><hr>
+</div>
+
+<div class="Messi">
+<figure>
+    <figcaption>Messi's third goal in Real Madrid 2017</figcaption>
+    <img src="in real madrid.jpg" width="400" height="250" alt="great goal"><br><br><br>
+</figure>
+
+<figure>
+    <figcaption>Messi's goal in bayern munchen 2015</figcaption>
+    <img src="in bayren.jpg" width="400" height="250" alt="amazing goal"><br><br>
+</figure>
+
+<figure>
+    <figcaption>Messi's goal in Liverpool 2019</figcaption>
+    <img src="unnamed.jpg" width="400" height="250" alt="amazing goal"><br><br><br><hr>
+</figure>
+</div>
+
+
+
+<div class="contact">
+    <h1>Contact Us</h1>
+    <div class="txtb">
+        <label>Full Name :</label>
+        <input type="text" name="" value="" placeholder="Enter your name">
+    </div>
+
+    <div class="txtb">
+        <label>Email :</label>
+        <input type="email" name="" value="" placeholder="Enter your email">
+    </div>
+
+    <div class="txtb">
+        <label>Phone Number :</label>
+        <input type="number" name="" value="" placeholder="Enter your phone number">
+    </div>
+
+    <div class="txtb">
+        <label>Message :</label>
+        <textarea></textarea>
+    </div>
+    <a href="">send</a>
+
+
+</div>
+
     </body>
 </html>
